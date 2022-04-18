@@ -1,10 +1,12 @@
 import React from 'react';
+import Navigation from "../components/Navigation";
 
 const Contact = () => {
     return (
-        <div>
+        <>
+            <Navigation />
             <p>Page contact</p>
-        </div>
+        </>
     );
 };
 
