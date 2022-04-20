@@ -151,8 +151,10 @@
     }
 
     .otherSkills {
+      display: grid;
       grid-area: 0;
       margin-right: 0.5rem;
+
 
       .list {
         display: flex;
@@ -182,12 +184,12 @@
 
         li {
           i {
-            position: absolute;
+            position: relative;
             color: $color-5;
           }
 
           span {
-            position: relative;
+            position: absolute;
             transform: translateX(2.2rem);
           }
         }
