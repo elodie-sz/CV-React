@@ -9,7 +9,7 @@ const Knowledges = () => {
     return (
         <div className="knowledges">
             <Navigation />
-            <div className="KnowledgesContent">
+            <div className="knowledgesContent">
                 <Languages />
                 <Experience />
                 <OtherSkills />
