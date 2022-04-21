@@ -44,43 +44,19 @@ a {
   cursor: pointer;
 }
 a:visited {
-  color: $black;
+  color:$black;
 }
-
-.home, .knowledges, .porfolio, .contact {
+.home, .knowledges, .portfolio, .contact {
   display: flex;
-  
+
   @media screen and (max-width: 850px){
-    display:block !important;
+    display: block !important;
   }
 }
-
-.homeContent, .knowledgesContent, .porfolioContent, contactContent {
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
   margin-left: .4rem;
-  
-  @media screen and (max-width: 850px) {
+
+  @media screen and (max-width: 850px){
     margin-left: 0 !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
