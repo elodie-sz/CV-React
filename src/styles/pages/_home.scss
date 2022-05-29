@@ -1,3 +1,4 @@
+
 .home {
 
   .homeContent {
@@ -5,7 +6,7 @@
     min-height: $minHeight;
     width: 100%;
     min-height: 500px;
-    border-radius: $borderRadius;
+    //border-radius: $borderRadius;
     position: relative;
     overflow: hidden;
 
@@ -14,9 +15,9 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      background: url('../../media/bigGates.jpg') no-repeat center/cover;
+      background: url('../../media/matrix-fond.jpg') no-repeat center/cover;
       z-index: -1;
-      filter: brightness(30%);
+      filter: brightness(70%);
     }
 
     .content {

@@ -40,15 +40,15 @@ const Contact = () => {
                 </div>
                 <div className="socialNetwork">
                     <ul>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/rarib-laamimat/" target="_blank" rel="noopener noreferrer">
                             <h4>Linkedin</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/MattCornicDev" target="_blank" rel="noopener noreferrer">
                             <h4>Github</h4>
                             <i className="fab fa-github"></i>
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/MattCornic" target="_blank" rel="noopener noreferrer">
                             <h4>Twitter</h4>
                             <i className="fab fa-twitter"></i>
                         </a>
