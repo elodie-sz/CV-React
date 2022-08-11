@@ -52,7 +52,7 @@ const Contact = () => {
                             <h4>Twitter</h4>
                             <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://codepen.io/mattcornicdev" target="_blank" rel="noopener noreferrer">
                             <h4>CodePen</h4>
                             <i className="fab fa-codepen"></i>
                         </a>
