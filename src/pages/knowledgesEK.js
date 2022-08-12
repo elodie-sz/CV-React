@@ -7,7 +7,7 @@ import HobbiesEK from "../components/knowledgesEK/HobbiesEK";
 
 const KnowledgesEK = () => {
     return (
-        <div className="knowledgesEK">
+        <div className="knowledges">
             <Navigation />
             <div className="knowledgesContent">
                 <LanguagesEK />
