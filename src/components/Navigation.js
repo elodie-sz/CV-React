@@ -7,7 +7,7 @@ const Navigation = () => {
             <div className="id">
                 <div className="idContent">
                     <img src="./media/photoProfil.jpg" alt="photo de bill gates"/>
-                    <h3>Rarib LAAMIMAT</h3>
+                    <h3>Rarib LAAMIMAT Elodie KSIAZEK</h3>
                 </div>
             </div>
 
@@ -26,15 +26,33 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
+                        <NavLink exact="true" to="/competencesEK" activeClassName="navActive">
+                            <i className="fas fa-mountain"></i>
+                            <span>Compétences Elodie KSIAZEK</span>
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink exact="true" to="/portfolio" activeClassName="navActive">
                             <i className="fas fa-images"></i>
                             <span>Portfolio</span>
                         </NavLink>
                     </li>
                     <li>
+                        <NavLink exact="true" to="/portfolioEK" activeClassName="navActive">
+                            <i className="fas fa-images"></i>
+                            <span>Portfolio Elodie KSIAZEK</span>
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink exact="true" to="/contact" activeClassName="navActive">
                             <i className="fas fa-address-book"></i>
                             <span>Contact</span>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink exact="true" to="/contactEK" activeClassName="navActive">
+                            <i className="fas fa-address-book"></i>
+                            <span>Contact <br/> Elodie KSIAZEK</span>
                         </NavLink>
                     </li>
                 </ul>
