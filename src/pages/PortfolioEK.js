@@ -5,7 +5,7 @@ import ProjectListEK from "../components/portfolioEK/ProjectListEK";
 
 const PortfolioEK = () => {
     return (
-        <div className="portfolioEK">
+        <div className="portfolio">
             <Navigation />
             <ProjectListEK />
 
