@@ -3,7 +3,7 @@ import React from 'react';
 const HobbiesEK = () => {
     return (
         <div>
-            <div className="hobbiesEK">
+            <div className="hobbies">
                 <h3>Interêts</h3>
                 <ul>
                     <li className="hobby"><i className="fas fa-football"></i><span>Football</span></li>

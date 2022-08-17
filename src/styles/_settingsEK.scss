@@ -7,7 +7,7 @@ $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
 
-$color-1: #2a1d52;
+$color-1: #403660;
 $color-2: #6C77F4;
 $color-3: rgb(99, 164, 233);
 $color-4: #4FEDD2;
@@ -32,7 +32,8 @@ $minHeight: 95vh;
 }
 body {
   margin: 1rem auto;
-  max-width: 1200px;
+
+  max-width: 90%;
   font-family: $font-1;
   color: $black;
 }

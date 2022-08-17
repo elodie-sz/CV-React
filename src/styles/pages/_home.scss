@@ -1,11 +1,10 @@
-
 .home {
 
   .homeContent {
-    background: linear-gradient(115deg, $color-1 50%, transparent 100%);
-    min-height: $minHeight;
+    background: linear-gradient(115deg, $color-1 40%, transparent 100%);
+    // min-height: $minHeight;
     width: 100%;
-    min-height: 500px;
+    min-height: 100%;
     //border-radius: $borderRadius;
     position: relative;
     overflow: hidden;
@@ -17,13 +16,19 @@
       width: inherit;
       background: url('../../media/matrix-fond.jpg') no-repeat center/cover;
       z-index: -1;
-      filter: brightness(70%);
+      filter: brightness(80%);
     }
+
+
+    p {
+      color: white;
+      padding: 1.5rem 0 7rem;
+    }    
 
     .content {
       position: absolute;
-      top: 20%;
-      left: 13%;
+      top: 10%;
+      left: 10%;
       font-family: $font-1;
 
       h1 {
@@ -35,7 +40,7 @@
       }
       h2 {
         font-size: 2.5rem;
-        padding: 1.5rem 0 7rem;
+        padding: 1.5rem 0 2rem;
         color: $color-3;
         text-shadow: 1px 4px 1px $black;
       }
