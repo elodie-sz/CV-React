@@ -6,8 +6,9 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/photoProfil.jpg" alt="photo de bill gates"/>
-                    <h3>Rarib LAAMIMAT Elodie KSIAZEK</h3>
+
+                    {/* <img src="./media/photoProfil.jpg" alt="photo de bill gates"/> */}
+
                 </div>
             </div>
 
@@ -73,9 +74,9 @@ const Navigation = () => {
                         <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
                     </li>
                 </ul>
-                <div className="signature">
+                {/* <div className="signature">
                     <p>MattCornicDev™ - 2022</p>
-                </div>
+                </div> */}
             </div>
 
         </div>
