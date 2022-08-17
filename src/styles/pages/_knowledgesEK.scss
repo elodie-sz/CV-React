@@ -1,7 +1,9 @@
 .knowledges {
   .knowledgesContent {
     min-height: $minHeight;
+
     height: 100%;
+
     position: relative;
     overflow: hidden;
     display: grid;
@@ -12,18 +14,22 @@
       "O O H";
 
     .languagesFrameworks, .experience, .otherSkills, .hobbies {
+
       background: #a4a4e8;
       //border-radius: $borderRadius;
       // padding: .8rem;
+
     }
 
     h3 {
       font-size: 1.4rem;
       margin-bottom: 1rem;
+
       font-family: $font-3;
       color: #08084e;
       text-transform: uppercase;
       text-align: center;
+
     }
 
     .languagesFrameworks {
