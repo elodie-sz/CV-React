@@ -4,7 +4,7 @@ import React from 'react';
 const OtherSkillsEK = () => {
     return (
         <div>
-            <div className="otherSkillsEK">
+            <div className="otherSkills">
                 <h3>Autres compétences</h3>
                 <div className="list">
                     <ul>
