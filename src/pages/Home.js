@@ -7,11 +7,11 @@ const Home = () => {
            <Navigation />
             <div className="homeContent">
                 <div className="content">
+
                     <h2>Développeurs Full Stack</h2>
 
 
                     <p>Paragrapheeeeeeeeeeeeeeeee</p>
-
 
                     <div className="pdf">
                         <a href="./media/resume.pdf" target="_blank">CV de Rarib LAAMIMAT</a>
