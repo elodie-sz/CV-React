@@ -5,6 +5,7 @@ const OtherSkillsEK = () => {
     return (
         <div>
             <div className="otherSkills">
+
                 <h3>Autres compétences</h3>
                 <div className="list">
                     <ul>
