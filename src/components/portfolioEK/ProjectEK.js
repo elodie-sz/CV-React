@@ -18,7 +18,6 @@ class ProjectEK extends Component {
     render() {
         let {name, languagesIcons, source, info, picture} = this.props.item;
         return (
-
             <div className="project">
 
                 <div className="icons">

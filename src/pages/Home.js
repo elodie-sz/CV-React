@@ -17,9 +17,10 @@ const Home = () => {
                         Développons ensemble vos APIs qu'elle soit en cours ou démarrage React, Symfony ou NodeJS, nous répondrons au mieux à vos attentes.</p>
 
 
+
                     <div className="pdf">
                         <a href="./media/resume.pdf" target="_blank">CV de Rarib LAAMIMAT</a>
-                        <a href="./media/resume.pdf" target="_blank">CV d'Elodie KSIAZEK</a>
+                        <a href="./media/CV.Elodie-Ksiazek.pdf" target="_blank">CV d'Elodie KSIAZEK</a>
                     </div>
                 </div>
             </div>
