@@ -24,13 +24,11 @@
 
     h3 {
       font-size: 1.4rem;
-      margin-bottom: 1rem;
-
+      margin-bottom: 0.1rem;
       font-family: $font-3;
       color: #08084e;
       text-transform: uppercase;
       text-align: center;
-
     }
 
     .languagesFrameworks {
@@ -162,7 +160,8 @@
     .otherSkills {
       display: grid;
       grid-area: 0;
-      margin-right: 0.5rem;
+      margin-right: 0rem;
+      height: 16.5rem;
 
 
       .list {
@@ -186,9 +185,12 @@
     .hobbies {
       grid-area: H;
       padding-left: 1.5rem;
+      margin-left: 0.5rem;
+      height: 16.5rem;
+      width: 40rem;
 
       ul {
-        height: 80%;
+        height: 60%;
         display: grid;
 
         li {

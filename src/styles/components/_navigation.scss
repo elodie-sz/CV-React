@@ -3,8 +3,8 @@
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;
-  width: 20%;
-  //border-radius: $borderRadius;
+  width: 30%;
+  // border-radius: $borderRadius;
   position: relative;
   display: grid;
   // grid-template-columns: 1fr;
@@ -74,6 +74,7 @@
         }
         span {
           margin-left: 2.7rem;
+          font-size: 1.1rem;
         }
       }
     }
@@ -85,7 +86,7 @@
     ul {
       display: flex;
       width: 260px;
-      padding: 1px;
+      padding: 50px;
       justify-content: space-between;
 
       li {
