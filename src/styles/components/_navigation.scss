@@ -1,5 +1,6 @@
 .sidebar {
-  background: $color-1;
+  // background: $color-1;
+  background: linear-gradient($color-1, $color-2, $color-3);
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;

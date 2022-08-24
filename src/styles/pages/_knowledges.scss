@@ -83,6 +83,7 @@
 
         li {
           color: $color-1;
+          font-weight: bold;
         }
 
         .progressBar {
@@ -178,10 +179,10 @@
 
     .hobbies {
       grid-area: H;
-      padding-left: 1.5rem;
+      // padding-left: 1.5rem;
 
       ul {
-        height: 80%;
+        // height: 80%;
         display: grid;
 
         li {
@@ -192,7 +193,8 @@
 
           span {
             position: absolute;
-            transform: translateX(2.2rem);
+            // transform: translateX(2.2rem);
+            font-weight: bold;
           }
         }
       }
