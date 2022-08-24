@@ -3,11 +3,12 @@
     min-height: $minHeight;
 
     height: 100%;
+    border-radius: 10px;
 
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 38% 1fr 1fr;
+    // grid-template-columns: 38% 1fr 1fr;
     grid-template-rows: 70% 30%;
     grid-template-areas:
       "L E E"
@@ -16,7 +17,8 @@
     .languagesFrameworks, .experience, .otherSkills, .hobbies {
 
 
-      background: #a4a4e8;
+      background: $color-3;
+      border-radius: 10px;
       //border-radius: $borderRadius;
       // padding: .8rem;
 
@@ -26,7 +28,7 @@
       font-size: 1.4rem;
       margin-bottom: 0.1rem;
       font-family: $font-3;
-      color: #08084e;
+      color: $color-1;
       text-transform: uppercase;
       text-align: center;
     }
@@ -186,8 +188,9 @@
       grid-area: H;
       padding-left: 1.5rem;
       margin-left: 0.5rem;
-      height: 16.5rem;
+      height: 18.5rem;
       width: 40rem;
+      border-radius: 10px;
 
       ul {
         height: 60%;

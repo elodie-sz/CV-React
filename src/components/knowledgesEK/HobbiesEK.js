@@ -7,10 +7,13 @@ const HobbiesEK = () => {
             <div className="hobbies">
 
                 <h3>Interêts</h3>
+
+                <br/>
+
                 <ul>
-                    <li className="hobby"><i className="fas fa-football"></i><span>Football</span></li>
-                    <li className="hobby"><i className="fas fa-fitness"></i><span>Fitness</span></li>
-                    <li className="hobby"><i className="fas fa-travel"></i><span>Voyages</span></li>
+                    <li className="hobby"><i className="fas fa-futbol"></i><span>Football</span></li>
+                    <li className="hobby"><i className="fas fa-dumbbell"></i><span>Fitness</span></li>
+                    <li className="hobby"><i className="fas fa-plane"></i><span>Voyages</span></li>
                 </ul>
             </div>
         </div>
