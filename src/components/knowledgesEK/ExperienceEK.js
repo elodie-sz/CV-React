@@ -9,17 +9,15 @@ const ExperienceEK = () => {
             <div className="exp-1">
                 <h4>Stagiaire conceptrice développeuse d'applications</h4>
                 <h5>Centre social de Dorignies - De juillet à octobre 2021</h5>
-
                 <p>
-                    Conception et développement d'une application web
+                    - Conception et développement d'une application web
                 </p>
             </div>
-
 
             <div className="exp-2">
                 <h4>Stagiaire développeuse web</h4>
                 <h5>Mission Locale du Douaisis - De juin à septembre 2020</h5>
-                <p>Refonte d'un site internet</p>
+                <p>- Refonte d'un site internet</p>
             </div>
 
             <div className="exp-3">
