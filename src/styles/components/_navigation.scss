@@ -2,6 +2,7 @@
   // background: $color-1;
   background: linear-gradient($color-1, $color-2, $color-3);
   font-family: $font-1;
+  border-radius: 10px;
   height: 100%;
   min-height: $minHeight;
   width: 30%;
@@ -46,10 +47,10 @@
 }
   .navigation {
     grid-area: 2;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 
     ul {
-      margin-top: 40%;
+      margin-top: 42%;
       height: 80%;
       display: grid;
 
