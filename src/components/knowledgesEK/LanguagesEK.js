@@ -10,7 +10,7 @@ class LanguagesEK extends Component {
             {id: 4, value: "C#", xp: 1}
         ],
         frameworks: [
-            {id: 1, value: "CodeIgniter", xp: 2},
+            {id: 1, value: ".NET", xp: 2},
             {id: 2, value: "React", xp: 1.5},
             {id: 3, value: "Bootstrap", xp: 2},
             {id: 4, value: "Sass", xp: 1.5}

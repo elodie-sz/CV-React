@@ -73,6 +73,7 @@ const Navigation = () => {
                 </ul>
             </div>
 
+            {/*
             <div className="socialNetwork">
                 <ul>
                     <li>
@@ -88,10 +89,10 @@ const Navigation = () => {
                         <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
                     </li>
                 </ul>
-                {/* <div className="signature">
+                 <div className="signature">
                     <p>MattCornicDev™ - 2022</p>
-                </div> */}
-            </div>
+                </div>
+            </div> */}
 
         </div>
     );

@@ -7,10 +7,10 @@ const Hobbies = () => {
                 <h3>Interêts</h3>
                 <ul>
                     <li className="hobby"><i className="fas fa-running"></i><span>Course à pied</span></li>
-                    <li className="hobby"><i className="fas fa-gamepad"></i><span>Jeu Vidéo</span></li>
-                    <li className="hobby"><i className="fas fa-seedling"></i><span>Musculation</span></li>
-                    <li className="hobby"><i className="fab fa-bitcoin"></i><span>Crypto-monnaie</span></li>
-                    <li className="hobby"><i className="fas fa-rocket"></i><span>science</span></li>
+                    <li className="hobby"><i className="fas fa-gamepad"></i><span>Jeux Vidéos</span></li>
+                    <li className="hobby"><i className="fas fa-dumbbell"></i><span>Musculation</span></li>
+                    <li className="hobby"><i className="fab fa-readme"></i><span>Lecture</span></li>
+                    <li className="hobby"><i className="fas fa-rocket"></i><span>sciences</span></li>
                 </ul>
             </div>
         </div>
