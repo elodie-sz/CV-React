@@ -8,10 +8,10 @@ class ProjectListEK extends Component {
         radios: [
             {id:1, value:"javascript"},
             {id:2, value: "css"},
-            {id:3, value: "react"},
+            {id:3, value: "Wordpress"},
             {id:4, value: "php"}
         ],
-        selectedRadio: 'javascript'
+        selectedRadio: 'css'
     };
 
     handleRadio = (event) => {

@@ -29,8 +29,6 @@
 
     .content {
       position: absolute;
-      // top: 10%;
-      // left: 10%;
       font-family: $font-1;
 
       h1 {
@@ -49,7 +47,10 @@
       }
       .pdf {
         position: fixed;
-        bottom: 5rem;
+        //Centrer les boutons de la page d'accueil
+        bottom: 15%;
+        left: 45%;
+        
 
         a {
           font-size: 0.9rem;

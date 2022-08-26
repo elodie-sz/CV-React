@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from "./pages/Contact";
 import ContactEK from "./pages/ContactEK";
 import Home from './pages/Home';
+// import SavoirFaire from "./pages/SavoirFaire";
+// import SavoirFaireEK from "./pages/SavoirFaireEK";
 import Knowledges from "./pages/knowledges";
 import KnowledgesEK from "./pages/knowledgesEK";
 import NotFound from "./pages/NotFound";
@@ -15,6 +17,8 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" exact element={<Home />} />
+                    {/* <Route path="/savoirFaire" element={<SavoirFaire />} />
+                    <Route path="/savoirFaireEK" element={<SavoirFaireEK />} /> */}
                     <Route path="/competences" element={<Knowledges />} />
                     <Route path="/competencesEK" element={<KnowledgesEK />} />
                     <Route path="/portfolio" element={<Portfolio />} />
