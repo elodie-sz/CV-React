@@ -73,7 +73,7 @@ const Navigation = () => {
                 </ul>
             </div>
 
-            <div className="socialNetwork">
+            {/* <div className="socialNetwork">
                 <ul>
                     <li>
                         <a href="https://www.linkedin.com/in/rarib-laamimat/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
@@ -88,10 +88,7 @@ const Navigation = () => {
                         <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
                     </li>
                 </ul>
-                {/* <div className="signature">
-                    <p>MattCornicDev™ - 2022</p>
-                </div> */}
-            </div>
+            </div> */}
 
         </div>
     );
