@@ -32,8 +32,8 @@ const Navigation = () => {
                                     key={direction}
                                     id={`dropdown-button-drop-${direction}`}
                                     drop={direction}
-                                    variant="secondary"
-                                    title={` Elodie ${direction} `}
+                                    variant=""
+                                    title={` Elodie Profile `}
                                 >
                                     <Dropdown.Item eventKey="1">
                                         <NavLink exact="true" to="/competencesEK" activeClassName="navActive">
@@ -70,8 +70,8 @@ const Navigation = () => {
                                     key={direction}
                                     id={`dropdown-button-drop-${direction}`}
                                     drop={direction}
-                                    variant="secondary"
-                                    title={` Rarib ${direction} `}
+                                    variant=""
+                                    title={` Rarib Profile `}
                                 >
                                     <Dropdown.Item eventKey="1">
                                         <NavLink exact="true" to="/competences" activeClassName="navActive">
