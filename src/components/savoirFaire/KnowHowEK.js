@@ -1,9 +1,11 @@
 import React from 'react';
+import Navigation from "../Navigation";
 
-const SavoirFaireEK = () => {
+const KnowHowEK = () => {
     return (
 
         <div className="savoirFaire">
+            <Navigation />
             <h3>Mes savoir-faire</h3>
 
             <div className="exp-1">
@@ -20,4 +22,4 @@ const SavoirFaireEK = () => {
     );
 };
 
-export default SavoirFaireEK;
+export default KnowHowEK;
