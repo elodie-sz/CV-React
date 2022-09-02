@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink, navLink} from 'react-router-dom';
 import Dropdown from "react-bootstrap/Dropdown";
+import  'bootstrap/dist/css/bootstrap.min.css' ;
 
 const Navigation = () => {
     return (
@@ -25,7 +26,7 @@ const Navigation = () => {
                     <div className="navigation">
 
                         <Dropdown>
-                            <Dropdown.Toggle variant="success" id="dropdown-elodie">
+                            <Dropdown.Toggle variant="success" id="dropdown-basic">
                                 Elodie
                             </Dropdown.Toggle>
 
