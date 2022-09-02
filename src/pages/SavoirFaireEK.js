@@ -5,9 +5,9 @@ import KnowHowEK from "../components/savoirFaireEK/KnowHowEK";
 
 const SavoirFaireEK = () => {
     return (
-        <div className="knowledges">
+        <div className="home">
             <Navigation />
-            <div className="knowledgesContent">
+            <div className="homeContent">
                 <KnowHowEK />
             </div>
         </div>

@@ -4,7 +4,7 @@ import React from 'react';
 const KnowHowEK = () => {
     return (
         <>
-            <h1>Ici le savoir faire d'ELODIE</h1>
+            <p>Ici le savoir faire d'ELODIE</p>
         </>
 
 

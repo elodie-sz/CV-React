@@ -5,9 +5,9 @@
 
  const SavoirFaire = () => {
      return (
-         <div className="knowledges">
+         <div className="home">
              <Navigation />
-             <div className="knowledgesContent">
+             <div className="homeContent">
                  <KnowHow />
              </div>
          </div>
