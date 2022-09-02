@@ -1,15 +1,18 @@
- import React from 'react';
+import React from 'react';
 import Navigation from "../components/Navigation";
-import KnowHowEK from "../components/savoirFaire/KnowHowEK";
+import KnowHowEK from "../components/savoirFaireEK/KnowHowEK";
 
- const savoirFaireEK = () => {
-     return (
-         <div className="savoirFaireEK">
-             <Navigation />
-             <KnowHowEK />
-         </div>
-     );
- };
 
- export default savoirFaireEK;
+const SavoirFaireEK = () => {
+    return (
+        <div className="knowledges">
+            <Navigation />
+            <div className="knowledgesContent">
+                <KnowHowEK />
+            </div>
+        </div>
+    );
+};
+
+export default SavoirFaireEK;
 

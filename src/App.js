@@ -10,7 +10,8 @@ import Portfolio from "./pages/Portfolio";
 import PortfolioEK from "./pages/PortfolioEK";
 import savoirFaire from "./pages/SavoirFaire";
 import SavoirFaire from "./pages/SavoirFaire";
-import KnowHowEK from "./components/savoirFaire/KnowHowEK";
+import KnowHowEK from "./components/savoirFaireEK/KnowHowEK";
+import SavoirFaireEK from "./pages/SavoirFaireEK";
 
 
 
@@ -29,7 +30,7 @@ const App = () => {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/contactEK" element={<ContactEK />} />
                     <Route path="/savoirFaire" element={<SavoirFaire />} />
-                    <Route path="/savoirFaireEK" element={<KnowHowEK />} />
+                    <Route path="/savoirFaireEK" element={<SavoirFaireEK />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>

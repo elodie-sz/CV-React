@@ -93,7 +93,7 @@ const Navigation = () => {
                                     </Dropdown.Item>
                                     <Dropdown.Divider />
                                     <Dropdown.Item eventKey="4">
-                                        <NavLink exact="true" to="/savoirFaireEK" activeClassName="navActive">
+                                        <NavLink exact="true" to="/savoirFaire" activeClassName="navActive">
                                             <i className="fas fa-mountain"></i>
                                             <span>Savoir-faire</span>
                                         </NavLink>

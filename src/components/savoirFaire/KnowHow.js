@@ -4,7 +4,7 @@ import React from 'react';
 const KnowHow = () => {
      return (
          <>
-             <p>Essai</p>
+             <h1>Ici le savoir faire de RARIB</h1>
          </>
 
 

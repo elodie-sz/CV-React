@@ -5,10 +5,13 @@
 
  const SavoirFaire = () => {
      return (
-         <div className="savoirFaire">
-            <Navigation />
-             <KnowHow />
+         <div className="knowledges">
+             <Navigation />
+             <div className="knowledgesContent">
+                 <KnowHow />
+             </div>
          </div>
+
      );
  };
 
