@@ -45,8 +45,9 @@
     }
   }
 }
+
   .navigation {
-    grid-area: 2;
+    grid-area: 3;
     padding: 1rem 1rem;
 
     ul {
@@ -130,6 +131,8 @@
       }
     }
   }
+
+  //pour le responsive
   @media screen and (max-width: 850px){
     .sidebar{
       display: flex;
