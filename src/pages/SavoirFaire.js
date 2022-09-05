@@ -1,17 +1,19 @@
-// import React from 'react';
-// import Navigation from "../components/Navigation";
-// import SavoirFaire from "../components/savoirFaire/SavoirFaire";
+ import React from 'react';
+ import Navigation from "../components/Navigation";
+ import KnowHow from "../components/savoirFaire/KnowHow";
 
-// const savoirFaire = () => {
-//     return (
-//         <div className="savoirFaire">
-//             <Navigation />
-//             <div className="savoirFaireContent">
-//                 <SavoirFaire />
-//             </div>
-//         </div>
-//     );
-// };
 
-// export default savoirFaire;
+ const SavoirFaire = () => {
+     return (
+         <div className="home">
+             <Navigation />
+             <div className="homeContent">
+                 <KnowHow />
+             </div>
+         </div>
+
+     );
+ };
+
+ export default SavoirFaire;
 

@@ -44,6 +44,10 @@ const ContactEK = () => {
                             <h4> Linkedin</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
+                        <a href="https://github.com/elodie-sz/" target="_blank" rel="noopener noreferrer">
+                            <h4>Github</h4>
+                            <i className="fab fa-github"></i>
+                        </a>
                     </ul>
                 </div>
             </div>
