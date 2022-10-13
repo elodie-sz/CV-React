@@ -20,6 +20,7 @@
     background: $color-1;
     user-select: none;
     box-shadow: $shadow;
+    border-radius: 10px;
 
     li {
       color: $color-3;
@@ -94,12 +95,13 @@
       padding: .3rem;
       box-shadow: $shadow;
       display: grid;
-      grid-template-rows: 15% 15% 55% 15%;
+      grid-template-rows: 15% 15% 55% 15% 15%;
       grid-template-areas:
         "1"
         "2"
         "3"
-        "4";
+        "4"
+        "5";
     }
     .icons {
       grid-area: 1;

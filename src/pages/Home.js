@@ -8,18 +8,20 @@ const Home = () => {
             <div className="homeContent">
                 <div className="content">
 
-                    <h2>Développeurs Full Stack</h2>
+                    <h2>Devéno</h2>
 
-                    <p>Parce que le développement informatique évolue constament, parce que vous avez besoin de maintenir vos APIs à jour, parce que vous recherchez des développeurs compétents, passionnés qui savent travailler en équipe <strong>Enodev</strong> s'est constitué.
+                    <p>Devéno est le fruit d'une collaboration entre deux développeurs originaire de la province du grand Hainaut  et partageant la même passion pour le developpement d'applications web, mobile et jeux vidéos.<br/>
+                        S'estimant chanceux vivre une période prospère en matière de technologie permettant d'améliorer le quotidien comme jamais, nous avons decidé de joindre nos efforts et compétences pour multiplier nos ressources.<br/>
+                        Le développement informatique évolue constament, si vous avez besoin de maintenir vos APIs à jour, Si vous êtes à la recherche de développeurs compétents, passionnés maitrisant le travaille d'équipe. Nous serons ravi de contribuer à vos projets.
                         <br/><br/>
-                        Que ce soit React NodeJS ou Symfony nous maintenons, créons vos applications PHP ou JavaScript.<br/><br/>
-                        Notre collaboration est issue d'une volonté à répondre le plus efficacement possible aux besoins de nos clients.<br/><br/>
-                        Développons ensemble vos APIs qu'elle soit en cours ou démarrage React, Symfony ou NodeJS, nous répondrons au mieux à vos attentes.</p>
+                    </p>
+                    <h2>A propos</h2>
+                    <p>Ce site est crée en ReactJS</p>
 
 
                     <div className="pdf">
                         <a href="./media/resume.pdf" target="_blank">CV de Rarib LAAMIMAT</a>
-                        <a href="./media/resume.pdf" target="_blank">CV d'Elodie KSIAZEK</a>
+                        <a href="./media/CV.Elodie-Ksiazek.pdf" target="_blank">CV d'Elodie KSIAZEK</a>
                     </div>
                 </div>
             </div>

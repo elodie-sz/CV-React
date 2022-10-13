@@ -1,7 +1,8 @@
 .home {
 
   .homeContent {
-    background: linear-gradient(115deg, $color-1 40%, transparent 100%);
+    background: linear-gradient($color-1, $color-2, $color-3);
+    border-radius: 10px;
     // min-height: $minHeight;
     width: 100%;
     min-height: 100%;
@@ -14,7 +15,7 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      background: url('../../media/matrix-fond.jpg') no-repeat center/cover;
+      // background: url('../../media/matrix-fond.jpg') no-repeat center/cover;
       z-index: -1;
       filter: brightness(80%);
     }
@@ -22,13 +23,12 @@
 
     p {
       color: white;
-      padding: 1.5rem 0 7rem;
+      // padding: 1.5rem 0 7rem;
+      margin:5%;
     }    
 
     .content {
       position: absolute;
-      top: 10%;
-      left: 10%;
       font-family: $font-1;
 
       h1 {
@@ -41,12 +41,16 @@
       h2 {
         font-size: 2.5rem;
         padding: 1.5rem 0 2rem;
-        color: $color-3;
+        color: $color-5;
         text-shadow: 1px 4px 1px $black;
+        text-align: center;
       }
       .pdf {
         position: fixed;
-        bottom: 5rem;
+        //Centrer les boutons de la page d'accueil
+        bottom: 15%;
+        left: 45%;
+        
 
         a {
           font-size: 0.9rem;
@@ -75,7 +79,7 @@
 @media screen and (max-width:580px){
   .homeContent {
     &:after {
-      background: url('../../media/bigGates.jpg') no-repeat 60% 50%/cover !important;
+     // background: url('../../media/bigGates.jpg') no-repeat 60% 50%/cover !important;
     }
     h1 {
       font-size: 3rem !important;

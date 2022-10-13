@@ -3,19 +3,21 @@
     min-height: $minHeight;
 
     height: 100%;
+    border-radius: 10px;
 
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 38% 1fr 1fr;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 70% 30%;
     grid-template-areas:
       "L E E"
       "O O H";
 
-    .languagesFrameworks, .experience, .otherSkills, .hobbies {
 
-      background: #a4a4e8;
+    .languagesFrameworks, .experience, .otherSkills, .hobbies {
+      background: $color-3;
+      border-radius: 10px;
       //border-radius: $borderRadius;
       // padding: .8rem;
 
@@ -23,13 +25,13 @@
 
     h3 {
       font-size: 1.4rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.3rem;
+      font-family: $font-2;
+      color: $color-1;
+      font-weight: bold;
 
-      font-family: $font-3;
-      color: #08084e;
       text-transform: uppercase;
       text-align: center;
-
     }
 
     .languagesFrameworks {
@@ -55,10 +57,12 @@
       }
 
       .years {
-        font-size: .65rem;
+        font-size: 80%;
         display: flex;
         justify-content: space-between;
-        color: $white;
+        color: $color-5;
+        font-weight: bold;
+        margin-top: 3%;
 
         span {
           width: 36%;
@@ -76,10 +80,10 @@
           &:nth-child(2):before,
           &:nth-child(3):before {
             content: '';
-            background: rgba(180, 179, 179, 0.507);
+            background: $color-5;
             position: absolute;
-            height: 146px;
-            width: 1px;
+            height: 20%;
+            width: 0.2%;
             transform: translate(9px, 19px);
           }
         }
@@ -102,9 +106,9 @@
           &:after {
             content: '';
             position: absolute;
-            background: $color-3;
+            background: $color-1;
             border-radius: 50px;
-            height: .4rem;
+            height: 60%;
             width: 0;
             animation: line 2s ease-out forwards;
 
@@ -120,10 +124,9 @@
 
     .experience {
       grid-area: E;
-      margin: 0 0 .5rem .5rem;
+      // margin: 0 0 .5rem .5rem;
       display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
+      grid-template-rows: 15%;
       grid-template-areas:
         "1"
         "2"
@@ -139,14 +142,14 @@
       }
 
       h5 {
-        color: $color-3;
-        padding: 0.5rem 0 0.5rem 1rem;
+        color: $color-1;
+        // padding: 0.5rem 0 0.5rem 1rem;
       }
 
       p {
         text-align: justify;
-        padding: 0 1rem;
-        font-size: 0.8rem;
+        // padding: 0 1rem;
+        font-size: 0.9rem;
       }
 
       .exp-1 {
@@ -156,26 +159,36 @@
       .exp-2 {
         grid-area: 3;
       }
+
+      .exp-3 {
+        grid-area: 4;
+      }
     }
 
     .otherSkills {
       display: grid;
-      grid-area: 0;
-      margin-right: 0.5rem;
+      // grid-area: 0;
+      margin-right: 0rem;
+      height: 100%;
+      border-radius: 10px;
 
+      span {
+        position: absolute;
+        transform: translateX(2.2rem);
+      }
 
       .list {
         display: flex;
-        width: 80%;
         height: 100%;
-        margin: 0 auto;
-        justify-content: space-between;
+        // margin: 0 auto;
+
 
         ul {
-          height: 80%;
-          display: grid;
+          height: 60%;
+          font-weight: bold;
 
           i {
+            position: relative;
             color: $color-5;
           }
         }
@@ -185,10 +198,14 @@
     .hobbies {
       grid-area: H;
       padding-left: 1.5rem;
+      margin-left: 0.5rem;
+      height: 100%;
+      border-radius: 10px;
 
       ul {
-        height: 80%;
+        height: 70%;
         display: grid;
+        font-weight: bold;
 
         li {
           i {
